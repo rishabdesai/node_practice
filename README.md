@@ -1,12 +1,21 @@
-### Node
+### Node.js
+
+* Developed by ** Ryan Dahl** in 2009.
+* Node is server-side javaScript
+* It works in a single thread with the help of event handlers.
+* **NodeJS** is __platform__ for building high performance web application over network using **JavaScript**
+* The purpose of using NodeJs is to create the server
+* Applications:
+    * REaltime apps (chat, collaboration etc)
+    * data streaming
+    * API's for mobile apps
+
+* A server listens to coming requests from users and responds with content.
+* 
+
+
 
 ```console
-Node is server-side javaScript
-It works in a single thread with the help of event handlers.
-
-
-The purpose of using NodeJs is to create the server
-
 npm install
 npm init -y
 npm install --save express
@@ -38,5 +47,11 @@ https://expressjs.com/en/starter/installing.html
 
 npm install -g nodemon ( monitor for any changes in source and automatically restart the server)
 npm install body-parser
+
+//number to text (indian format)
+npm install number2text
+
+//QR code creator
+npm install qr-image --save
 
 
